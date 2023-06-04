@@ -22,4 +22,4 @@ The 'props database' is nothing but a JSON file. You can paste this into `src/ap
 ## Acceptance Criteria
 
 - The user should be able to view the list of current movie props.
-- The user should be able to add a new movie prop to the list. This will not actually write to the file. As soon as the page is refreshed, the new prop will disappear.
+- The user should be able to add a new movie prop to the list. This will not actually write to the file. As soon as the page is refreshed, the new prop will disappear. Be sure to ~~drink your Ovaltine~~ capture the date on submission and include that. See `db.json` for the format of the data.
