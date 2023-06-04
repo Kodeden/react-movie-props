@@ -17,9 +17,9 @@ Since you all have been learning React, you're the perfect developers for the jo
 5. You will also see that the form to add a prop isn't working either.
 6. Fix the form and the list so that you can see the existing movie props and add new props to the list.
 
-The 'props database' is nothing but a JSON file. It's been imported into `src/app.jsx`.
+The 'props database' is nothing but a JSON file. You can paste this into `src/app.jsx` to import and use it: `import moviePropsSeed from "../db.json";`.
 
 ## Acceptance Criteria
 
 - The user should be able to view the list of current movie props.
-- The user should be able to add a new movie prop to the list.
+- The user should be able to add a new movie prop to the list. This will not actually write to the file. As soon as the page is refreshed, the new prop will disappear.
